@@ -1,0 +1,52 @@
+# ========================================== #
+#  Standard .gitignore for Unity Projects    #
+# ========================================== #
+
+# Folder Cache dan Sementara buatan Unity (Wajib Dibuang)
+/[L|l]ibrary/
+/[T|t]emp/
+/[O|o]bj/
+/[L|l]ogs/
+/[U|u]ser[S|s]ettings/
+/[M|m]emoryCaptures/
+
+# Folder Hasil Akhir Game (Build)
+/[B|b]uild/
+/[B|b]uilds/
+/[A|a]utobuild/
+
+# File Otomatis Buatan Kode Editor (Visual Studio / Rider / VS Code)
+.vs/
+.idea/
+.vscode/
+/*.sln
+/*.csproj
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svclog
+/*.saved
+/ExtendedObj/
+/Generated/
+
+# File Log Grafis dan Laporan Crash
+CrashReport-*/
+/sysinfo.txt
+
+# Aset Tambahan yang Sifatnya Sementara / Lokalan
+/[A|a]ssets/AssetStoreTools*
+/[A|a]ssets/**/Development/
+
+# File Sistem Operasi (Windows & Mac)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.vsconfig
